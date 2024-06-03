@@ -1,0 +1,6 @@
+<mat-nav-list>
+    <mat-list-item *ngFor="let transcription of transcriptions" (click)="onSelect(transcription.text)" class="transcription-item">
+      {{ transcription.text }}
+    </mat-list-item>
+  </mat-nav-list>
+  
